@@ -74,7 +74,6 @@ sub Run {
             );
             return;
         }
-        
 
         # Get ticket attributes.
         my %Ticket = $TicketObject->TicketGet(
